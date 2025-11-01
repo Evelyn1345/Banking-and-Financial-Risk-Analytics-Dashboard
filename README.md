@@ -1,29 +1,64 @@
-# Banking-and-Financial-Risk-Analytics-Dashboard
+# Banking Transactions Dashboard
 
-This repository contains the source code and files for an end-to-end data analytics project focused on the banking domain. The project's goal is to perform a comprehensive risk analysis for a banking use case to help minimize financial loss when lending to customers.
+## Overview
 
-Project Overview
-This project showcases a blend of data analytics skills, including:
+The Banking Transactions Dashboard is an end-to-end data analytics project that integrates multi-table transactional data using SQL Server, transforms it for reporting, and visualizes key performance indicators (KPIs) in Power BI. The project leverages Perplexity AI to optimize KPI and visualization design for actionable insights.
 
-Python: Used for data cleaning, preparation, and exploratory data analysis (EDA).
+## Tech Stack
 
-MySQL: Used to manage and store the banking dataset.
+Database: Microsoft SQL Server
 
-Power BI: Used to create a comprehensive and interactive dashboard for visualizing key insights.
+Visualization Tool: Power BI Desktop & Power BI Service
 
-Statistics: Applied to derive meaningful insights and analyze customer behavior related to loans and deposits.
+AI Tool: Perplexity AI (for KPI & chart recommendations)
 
-Key Features
+Languages: SQL, DAX
 
-Data Handling & Preparation: Clean and prepare a raw banking dataset and import it into a MySQL database.
+Techniques: Data Cleaning, ETL, Data Modeling, Dashboard Design, KPI Development
 
-Exploratory Data Analysis (EDA): Perform detailed univariate and bivariate analysis using Python to understand the data and uncover patterns in customer behavior.
+## Key Features
 
-Dashboard Creation: A Power BI dashboard is created to visualize the analysis, featuring:
+Extracted and cleaned multi-table banking data in SQL Server using joins, aggregations, and date functions.
 
-Loan and deposit analysis pages.
+Designed a comprehensive Power BI Dashboard with interactive charts and KPIs for tracking customer activity, transaction trends, and account performance.
 
-Key Performance Indicators (KPIs) to track crucial metrics.
+Utilized DAX measures to calculate metrics such as transaction volume, top customers, and inactive accounts.
 
-Interactive filters for dynamic data exploration.
+Integrated Perplexity AI for intelligent visualization recommendations, reducing report design time.
+
+Published the dashboard to Power BI Service for live stakeholder access.
+
+## Project Workflow
+
+Data Preparation:
+
+Imported raw transaction data into SQL Server.
+
+Cleaned and joined tables (customers, transactions, accounts).
+
+Data Modeling & Transformation:
+
+Created relational models for analysis in Power BI.
+
+Defined calculated columns and DAX measures for KPIs.
+
+Visualization & Insights:
+
+Built interactive Power BI reports (Tree Map, Bar Chart, KPI Cards, Trend Lines).
+
+Highlighted key insights on transaction behavior and account health.
+
+Automation & Publishing:
+
+Connected datasets for auto-refresh in Power BI Service.
+
+Published live reports with secure workspace access.
+
+## Insights Delivered
+
+Identified top-performing customers and regions based on transaction volumes.
+
+Detected inactive accounts and declining transaction patterns.
+
+Analyzed monthly transaction trends to support decision-making.
 

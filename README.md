@@ -1,8 +1,8 @@
-# Banking Transactions Dashboard
+# Market Risk & Performance Analytics Dashboard
 
 ## Overview
 
-The Banking Transactions Dashboard is an end-to-end data analytics project that integrates multi-table transactional data using SQL Server, transforms it for reporting, and visualizes key performance indicators (KPIs) in Power BI. The project leverages Perplexity AI to optimize KPI and visualization design for actionable insights.
+Market Risk & Performance Analytics Dashboard is an end-to-end data analytics project that integrates multi-table transactional data using SQL Server, transforms it for reporting, and visualizes key performance indicators (KPIs) in Power BI. The project leverages Perplexity AI to optimize KPI and visualization design for actionable insights.
 
 ## Tech Stack
 
